@@ -1,0 +1,47 @@
+
+
+.site-header-name{
+  grid-row-start: 1;
+  font-size: 3.5rem;
+
+}
+
+.site-header-page{
+}
+
+.left-text-header{
+}
+
+.left-text{
+
+}
+
+.right-text-header{
+}
+.right-text{
+
+}
+
+.profile-image{
+  margin: 0 0 0 90rem;
+  grid-column-start: 4;
+  grid-column-end:5;
+
+}
+
+.footer{
+  padding: 0 3rem 0 0;
+  float: right;
+}
+
+.content-wrapper{
+  display: grid;
+  grid-template-columns: 10rem 10rem 10rem ;
+  grid-template-rows: 10rem 10rem ;
+}
+
+
+.site-nav{
+}
+
+.nav-buttons{}
