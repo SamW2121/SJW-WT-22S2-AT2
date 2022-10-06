@@ -1,18 +1,26 @@
 .site-header-name{
-  grid-row-start: 1;
   grid-column-start: 1;
-  padding: 0 0 0 3rem;
+  grid-column-end: 5;
+  grid-row-start: 1;
   font-size: 3.5rem;
   float: left;
   font-weight: bold;
+  background: #43B0F1;
 
 }
+.main-class{
+  background: #DBBF6A;
+}
+
 
 .site-header-page{
-  padding: 0 0 0 50rem;
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
   font-size: 3.5rem;
   font-weight: bold;
   float: start;
+  background: royalblue;
 }
 
 .left-text-header{
@@ -55,22 +63,29 @@
   float: right;
 }
 
-.content-wrapper{
-  display:grid;
-  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
-  grid-template-rows: 10rem 10rem 10rem 10rem 10rem;
+.header-grid{
+  display: grid;
+  margin: 40px 0 0 1rem;
+  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem;
 }
 
+.main-grid{
+  display:grid;
+  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
+  grid-template-rows: 10rem 10rem 10rem ;
+}
 
-.site-nav{
-  margin: 40px 0 0 1rem;
+.nav-display{
+  grid-row-start: 2;
+  grid-column-start:1;
+  grid-column-end: 8;
 }
 
 .nav-buttons{
-  grid-row-start: 1;
   font-size: 3.5rem;
   display: inline;
   border: 2px solid black;
   padding: 0 3rem 0 3rem;
-  background: lightgrey;
+  background: #437C17;
 }
