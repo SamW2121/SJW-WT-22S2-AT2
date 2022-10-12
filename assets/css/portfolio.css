@@ -1,91 +1,73 @@
-.site-header-name{
-  grid-column-start: 1;
-  grid-column-end: 5;
-  grid-row-start: 1;
-  font-size: 3.5rem;
-  float: left;
-  font-weight: bold;
-  background: #43B0F1;
 
+.header-container{
+  display: flex;
+  flex-wrap:wrap;
+  background-color: #DBBF6A;
+
+}
+.body-containers{
+  display: flex;
+  flex-wrap:wrap;
+  background-color: #057DCD;
+}
+li:hover, li:active{
+  background-color: #FFFFFF;
+
+  display: block;
+}
+.nav-buttons{
+  background-color:  #437C17;
+  width: 349px;
+  min-width: 150px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  border: 2px solid black;
+  cursor:pointer;
+}
+.profile-image{
+  height:15rem;
+  width: 15rem;
+  margin: 0 0 0 10px;
+
+}
+
+.header-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.site-header-name{
+  width: 40%;
+  height: 100px;
+  font-size: 5rem;
+  border-radius: 12px;
+  margin: 3rem 0 0 5rem;
+}
+.site-header-page{
+  width:31%;
+  height: 100%;
+  font-size: 5rem;
+  margin: 3rem 0 0 10rem;
 }
 .main-class{
-  background: #DBBF6A;
+  min-width: 1745px;
+  max-width: 1745px;
+
+}
+.text-body{
+  font-size: 1.5rem;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 25px 240px 125px 100px;
+  width: 500px;
 }
 
 
-.site-header-page{
-  grid-column-start: 5;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  font-size: 3.5rem;
-  font-weight: bold;
-  float: start;
-  background: royalblue;
-}
-
-.left-text-header{
-  padding: 3rem 0 0 3rem;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-}
-
-.left-text{
-  padding: 6rem 0 0 3rem;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  grid-row-start: 1;
-
-}
-
-.right-text-header{
-  padding: 3rem 0 0 3rem;
-  grid-column-start: 5;
-  grid-column-end: 8;
-  grid-row-start: 1;
-}
-.right-text{
-  padding: 6rem 0 0 3rem;
-  grid-column-start: 5;
-  grid-column-end: 7;
-  grid-row-start: 1;
-
-}
-
-.profile-image{
-  grid-column-start: 8;
-  height: 15rem;
-  float: right;
-}
 
 .footer{
-  padding: 2rem 3rem 0 0;
-  float: right;
+  background-color: #43B0F1;
 }
 
-.header-grid{
-  display: grid;
-  margin: 40px 0 0 1rem;
-  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem;
-  grid-template-rows: 10rem 10rem;
-}
 
-.main-grid{
-  display:grid;
-  grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem 10rem;
-  grid-template-rows: 10rem 10rem 10rem ;
-}
-
-.nav-display{
-  grid-row-start: 2;
-  grid-column-start:1;
-  grid-column-end: 8;
-}
-
-.nav-buttons{
-  font-size: 3.5rem;
-  display: inline;
-  border: 2px solid black;
-  padding: 0 3rem 0 3rem;
-  background: #437C17;
-}
