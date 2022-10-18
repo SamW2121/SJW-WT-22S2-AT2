@@ -5,6 +5,10 @@
   background-color: #DBBF6A;
 
 }
+.list-anchors{
+  display: block;
+  width: 100%
+}
 .body-containers{
   display: flex;
   flex-wrap:wrap;
