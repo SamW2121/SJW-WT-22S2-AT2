@@ -1,24 +1,27 @@
-
 .header-container{
   display: flex;
   flex-wrap:wrap;
   background-color: #DBBF6A;
 
 }
+
 .list-anchors{
   display: block;
   width: 100%
 }
+
 .body-containers{
   display: flex;
   flex-wrap:wrap;
   background-color: #057DCD;
 }
+
 li:hover, li:active{
   background-color: #FFFFFF;
 
   display: block;
 }
+
 .nav-buttons{
   background-color:  #437C17;
   width: 349px;
@@ -29,6 +32,7 @@ li:hover, li:active{
   border: 2px solid black;
   cursor:pointer;
 }
+
 .profile-image{
   height:15rem;
   width: 15rem;
@@ -36,28 +40,37 @@ li:hover, li:active{
 
 }
 
-.header-container{
-  display: flex;
-  flex-wrap: wrap;
-}
 .site-header-name{
   width: 40%;
   height: 100px;
   font-size: 5rem;
   border-radius: 12px;
   margin: 3rem 0 0 5rem;
+  font-family: 'Lato';
 }
+
 .site-header-page{
   width:31%;
   height: 100%;
   font-size: 5rem;
   margin: 3rem 0 0 10rem;
 }
+
 .main-class{
   min-width: 1745px;
   max-width: 1745px;
-
 }
+
+.text-header{
+  font-size: 2rem;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  max-height: 3rem;
+  padding: 0 1rem 0 1rem;
+  margin: 25px 485px 5px 125px;
+}
+
 .text-body{
   font-size: 1.5rem;
   border: 3px solid black;
@@ -68,7 +81,23 @@ li:hover, li:active{
   width: 500px;
 }
 
+.demo-text-body{
+  font-size: 1.5rem;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 0 40px 125px 125px;
+  width: 500px;
+}
 
+.image{
+  height:10rem;
+  width: 10rem;
+  border-radius: 25px;
+  border: 3px solid black;
+  margin: 100px 0 0 0;
+ }
 
 .footer{
   background-color: #43B0F1;
