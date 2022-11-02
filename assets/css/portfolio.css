@@ -16,6 +16,15 @@
   background-color: #057DCD;
 
 }
+
+
+
+.contact-body-container{
+  display:grid;
+  grid-template-rows: auto auto ;
+  background-color: #057DCD;
+}
+
 .image-text-header-containers{
   display: grid;
   grid-template-columns: auto auto ;
@@ -99,18 +108,40 @@ li:hover, li:active{
   font-family: 'Courier';
 }
 
+
+
 .text-body{
   font-size: 1.3rem;
   border: 3px solid black;
   border-radius: 25px;
   background-color: #FFFFFF;
   padding: 20px;
-  margin: 0 200px 125px 125px;
+  margin: 50px 200px 50px 125px;
   width: 500px;
 
   font-family: 'Courier';
 }
 
+.text-body-contact{
+  font-size: 1.3rem;
+  border: 3px solid black;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin: 5px 200px 5px 50px;
+  font-family: 'Courier';
+}
+
+.message{
+  padding: 1rem;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+  margin:  0 0 0px 125px;
+  width: 32rem;
+  height: 20rem;
+  font-family: 'Courier';
+}
 
 
 .image{
