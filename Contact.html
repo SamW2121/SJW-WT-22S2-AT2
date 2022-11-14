@@ -30,17 +30,25 @@
 </div>
 <div class="contact-body-container">
 
-    <h1 class="text-body-contact">Full Name: <input></h1>
-    <h2 class="text-body-contact">Subject:<input></h2>
+    <h1 class="text-body-contact">Full Name: <input style="width: 35rem" id="myName"></h1>
+  <div class="text-body-contact">
+    <label>Subject:</label>
+    <select id="mySubject">
+      <option>Inquery</option>
+      <option>Get in Touch</option>
+      <option>Help</option>
+      <option>Collaboration</option>
+    </select>
+  </div>
 
-    <h1><textarea class="message">Write your message here!</textarea></h1>
-  <ul>
-    <li class="nav-buttons"> <a class="list-anchors" href="#">Submit</a></li>
+    <h1><textarea id="myInput" class="message">Write your message here!</textarea></h1>
+<ul class="nav-containers">
+    <li class="contact-buttons" onclick="document.getElementById('myInput').value = `Your ${document.getElementById('mySubject').value} has been sent :)`"> <a class="list-anchors" href="#">Submit</a></li>
+    <li class="contact-buttons" onclick="document.getElementById('myInput').value = ''; document.getElementById('myName').value = ''"><a class="list-anchors" href="#">Clear</a></li>
     <!-- nav buttons controls the size/colour of the button, list anchor does the clickable/hover stuff-->
   </ul>
+
 </div>
-
-
 
 </main>
 <footer class="footer main-class">
