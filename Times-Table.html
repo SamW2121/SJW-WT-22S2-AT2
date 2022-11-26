@@ -9,13 +9,15 @@
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:400,700">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier:400,700">
 
+    <script src="./assets/js/times-table.js" defer></script>
+
 </head>
 <main class="main-class" >
 
 <div class="header-container">
 
 <h1 class="site-header-name">Samuel Wise Portfolio</h1>
-<h2 class="site-header-page">Demos</h2>
+<h2 class="site-header-page">Demo: Times Table</h2>
 
 <img src="./assets/img/Sam%20Wise%20Resume%20Profile.png" alt="" class="profile-image"></img>
 <nav >
@@ -25,17 +27,23 @@
     <li class="nav-buttons"> <a class="list-anchors" href="./AboutMe.html">About Me</a></li>
     <li class="nav-buttons"> <a class="list-anchors" href="./Skills.html">Skills</a></li>
     <li class="nav-buttons"> <a class="list-anchors" href="./Contact.html">Contact</a></li>
-
     <li class="demo-buttons"> <a class="list-anchors" href="./Times-Table.html" >Times Table</a></li>
     <li class="demo-buttons"> <a class="list-anchors" href="./Clock.html" >Clock</a></li>
     <li class="demo-buttons"> <a class="list-anchors" href="./Birthday.html" >Birthday</a></li>
-    <p style="background-color: white; margin: 0 15rem 15rem; width: 60rem; font-size: 3rem; border-radius: 2rem; padding: 0 2rem 0">Please select which Demo you'd like to see</p></ul>
-
+  </ul>
 </nav>
-
 </div>
+  <div style="background-color: #057DCD">
+  <div style="margin: 0 30rem 0;">
+<p style="font-size: 3rem">Select multiplication number:</p>
+            <select name="multiplier" id="multiplier"
+                    class="select-body">
 
+            </select>
 
+    <p class="results" id="results"></p>
+  </div>
+  </div>
 
 
 </main>
